@@ -13,7 +13,7 @@ class BookResourceTest {
         given()
           .when().get("/api/books")
           .then()
-             .statusCode(200)
+             .statusCode(200) 
              .body(is("Hello RESTEasy"));
     }
 
